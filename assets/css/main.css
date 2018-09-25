@@ -3122,7 +3122,7 @@ ul.b {
 /* ------------------- Carousel Styling ------------------- */
 
 .__carousel-inners {
-  border-radius: 15px;
+  /*border-radius: 15px;*/
 }
 
 .__carousel-caption {
@@ -3132,7 +3132,7 @@ ul.b {
   right: 0;
   bottom: 0;
   z-index: 10;
-  padding: 0 0 10px 25px;
+  padding: 13px 13px 3px;
   color: #fff;
   text-align: left;
   font-size: 16px;
@@ -3158,6 +3158,10 @@ ul.b {
 .carousel-control.left,
 .carousel-control.right {
   background-image: none;
+}
+
+.__item img{
+  height: 304px !important;
 }
 
 

@@ -847,9 +847,9 @@
     padding: 0;
   }
 
-  .__mednewssideimg p {
+  /*.__mednewssideimg p {
     top: 219px;
-  }
+  }*/
 
   .__profile-quote1 {
     height: 100%;
@@ -1112,10 +1112,10 @@
     margin-top: 1450px;
   }
 
-  .__mednewssideimg p {
+  /*.__mednewssideimg p {
     top: 240px;
     width: 100%;
-  }
+  }*/
 
   .__mednewsimg {
     border: none;
@@ -1399,15 +1399,15 @@
     font-size: 18px;
   }
 
-  .__mednewssideimg img {
-    height: 100%;
+  .__item img {
+    height: 100% !important;
   }
 
-  .__mednewssideimg p {
+  /*.__mednewssideimg p {
     top: 105px;
     font-size: 13px;
     padding: 13px 12px 24px;
-  }
+  }*/
 
   .__mednewsimg img {
     width: 58px;
