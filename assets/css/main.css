@@ -562,13 +562,13 @@ a:focus, a:hover {
 /*carousel end*/
 
 .__navf{
-  font-size: 12px;
-  font-weight: 900;
+  font-size: 15px;
+  /*font-weight: 900;*/
   line-height: 1.38 !important;
   letter-spacing: 0.5px;
   color: #404040;
   padding: 28px 15px !important;
-  font-family:AvenirLTStd-Heavy;
+  /*font-family:AvenirLTStd-Heavy;*/
   transition: all 0.4s ease-in;
 }
 
@@ -584,7 +584,7 @@ a:focus, a:hover {
   letter-spacing: 0.5px;
   background: #16aacd;
   color: #fff !important;
-  padding: 28px 15px !important;
+  padding: 30px 15px !important;
   font-family:AvenirLTStd-Heavy;
 }
 
@@ -1789,35 +1789,35 @@ img {
 
 .__weplay p{
   font-size: 27px;
-  font-weight: 900;
+  /*font-weight: 900;*/
   line-height: 1.37;
   letter-spacing: 2.5px;
   text-align: center;
   padding: 24px 0;
   color: #ffffff;
-  font-family: AvenirLTStd-Heavy;
+  font-family: AvenirLTStd-Medium;
 }
 
 .__weplayd p{
   font-size: 27px;
-  font-weight: 900;
+  /*font-weight: 900;*/
   line-height: 1.37;
   letter-spacing: 2.5px;
   text-align: center;
   padding: 24px 0;
   color: #ffffff;
-  font-family: AvenirLTStd-Heavy;
+  font-family: AvenirLTStd-Medium;
 }
 
 .__weplays p{
   font-size: 27px;
-  font-weight: 900;
+  /*font-weight: 900;*/
   line-height: 1.37;
   letter-spacing: 2.5px;
   text-align: center;
   padding: 24px 0;
   color: #ffffff;
-  font-family: AvenirLTStd-Heavy;
+  font-family: AvenirLTStd-Medium;
 }
 
 .__doyou{
@@ -2691,7 +2691,7 @@ ul.b {
   font-size: 16px;
   font-weight: 500;
     line-height: 1.39;
-    color: #676767;
+    /*color: #676767;*/
  }
 
  .__resdown{
