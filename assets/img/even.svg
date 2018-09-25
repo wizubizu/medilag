@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="478px" height="224px" viewBox="0 0 478 224" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 10</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="12" y="24.1040444" width="275" height="166"></rect>
+        <filter x="-1.1%" y="-1.8%" width="102.2%" height="103.6%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.908242985   0 0 0 0 0.908242985   0 0 0 0 0.908242985  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-3" x="184.079665" y="27.0491969" width="275" height="166"></rect>
+        <filter x="-1.1%" y="-1.8%" width="102.2%" height="103.6%" filterUnits="objectBoundingBox" id="filter-4">
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.908242985   0 0 0 0 0.908242985   0 0 0 0 0.908242985  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-Copy" transform="translate(-665.000000, -3130.000000)">
+            <g id="Group-10" transform="translate(667.000000, 3132.000000)">
+                <g id="Group-8" opacity="0.235191231">
+                    <g id="Rectangle-8-Copy" transform="translate(149.500000, 107.104044) rotate(-9.000000) translate(-149.500000, -107.104044) ">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        <rect stroke="#FFFFFF" stroke-width="11" x="17.5" y="29.6040444" width="264" height="155"></rect>
+                    </g>
+                    <g id="Rectangle-8-Copy-2" transform="translate(321.579665, 110.049197) rotate(12.000000) translate(-321.579665, -110.049197) ">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                        <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-3"></use>
+                        <rect stroke="#FFFFFF" stroke-width="11" x="189.579665" y="32.5491969" width="264" height="155"></rect>
+                    </g>
+                </g>
+                <polygon id="Star" fill="#FBBC00" points="47.5 34 41.3282549 37.0901699 42.5069533 30.545085 37.5139066 25.9098301 44.4141274 24.954915 47.5 19 50.5858726 24.954915 57.4860934 25.9098301 52.4930467 30.545085 53.6717451 37.0901699"></polygon>
+                <polygon id="Star-Copy-3" fill="#3BA9C4" points="322.5 215 316.328255 218.09017 317.506953 211.545085 312.513907 206.90983 319.414127 205.954915 322.5 200 325.585873 205.954915 332.486093 206.90983 327.493047 211.545085 328.671745 218.09017"></polygon>
+                <polygon id="Star-Copy-2" fill="#5AB301" points="58.5 105 52.3282549 108.09017 53.5069533 101.545085 48.5139066 96.9098301 55.4141274 95.954915 58.5 90 61.5858726 95.954915 68.4860934 96.9098301 63.4930467 101.545085 64.6717451 108.09017"></polygon>
+                <polygon id="Star-Copy" fill="#EA4335" points="407.5 41 401.328255 44.0901699 402.506953 37.545085 397.513907 32.9098301 404.414127 31.954915 407.5 26 410.585873 31.954915 417.486093 32.9098301 412.493047 37.545085 413.671745 44.0901699"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

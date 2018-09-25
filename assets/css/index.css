@@ -1,0 +1,1713 @@
+/*=================================================================
+  Dashboard Css
+==================================================================*/
+
+@media screen and (min-width: 1440px){
+
+  .__dasepl {
+    margin: 5% 0 0 65px;
+    width: 870px;
+  }
+
+  .__dasepl span:nth-child(1) {
+    margin-left: 23%;
+  }
+
+}
+
+@media screen and (max-width: 1220px){
+  .__dasepl {
+    margin: 5% 0 0 72px;
+    width: 865px;
+  }
+
+  .__dasepl span:nth-child(1) {
+    margin-left: 22%;
+  }
+
+  .__pa {
+    margin: 45px 8px 9px 70px;
+    width: 869px;
+  }
+
+  .__addag {
+    margin: 45px 8px 9px 70px;
+    width: 869px;
+  }
+
+  .__dasempl {
+    margin: 45px 8px 9px 76px;
+    width: 865px;
+  }
+
+  .bigers {
+    width: 58%;
+    margin-top: 0%;
+    margin-left: 227px;
+  }
+
+  .__tabov {
+    margin: 5% 0 0 89px;
+    width: 866px;
+  }
+
+  .__profbtn {
+    width: 165px;
+  }
+
+  .__prof1btn {
+    width: 165px;
+  }
+
+  .__bidsov {
+    margin: 2% 7%;
+    width: 911px;
+  }
+
+  .__taladownimg img {
+    margin-left: -13px;
+  }
+
+
+}
+
+@media screen and (max-width: 1024px){
+  .leftbar {
+  padding-top: 10%;
+  }
+  .leftbart {
+  padding-top: 4%;
+  width: 205px;
+  }
+
+  .__dasepl span:nth-child(1) {
+    padding: 14px 29px;
+    margin-left: 5%;
+  }
+
+  .__dasepl {
+    margin: 5% 0px 0px 87px;
+    /*width: 805px;*/
+    width: 727px;
+  }
+
+  .__dasepl1 {
+    margin: 45px 8px 9px 92px;
+    width: 723px;
+  }
+
+  .__dascard {
+    width: 100%;
+  }
+
+  .__dasempl {
+      margin: 45px 0px 9px 91px;
+    width: 707px;
+  }
+
+  .__pa {
+    margin: 45px 8px 9px 89px;
+    width: 726px;
+  }
+  .__addag {
+    margin: 45px 8px 9px 89px;
+    width: 726px;
+  }
+
+  .bigers {
+    width: 67%;
+    margin-top: 3%;
+    margin-left: 139px;
+  }
+
+  .__tabov {
+    margin: 5% 0 0 82px;
+    width: 721px;
+  }
+
+  .__trvto {
+    padding: 10px 20px 3px;
+  }
+
+  .__nav-pills li a {
+    padding: 20px 10px 9px;
+  }
+
+  .__profbtn {
+    font-family: AvenirLTStd-Medium;
+    width: 142px;
+  }
+  .__prof1btn {
+    font-family: AvenirLTStd-Medium;
+    width: 142px;
+  }
+
+  .__upl {
+    padding: 40px 66px;
+  }
+
+
+}
+
+@media screen and (max-width: 992px) {
+  
+  
+  .__dasepl {
+      margin: 5% 0px 0px 87px;
+      width: 712px;
+  }
+
+  .__pa {
+    margin: 45px 8px 9px 89px;
+    width: 709px;
+  }
+  .__addag {
+    margin: 45px 8px 9px 89px;
+    width: 709px;
+  }
+
+  .__dasepl span:nth-child(1) {
+    margin-left: 3%;
+  }
+
+  .__taladownimg img {
+    margin-left: -16px;
+  }
+
+}
+
+@media screen and (max-width: 800px){
+  .leftbar{
+    transform: translate(-300px);
+    top: 0%;
+  }
+
+  .leftbart{
+    transform: translate(-300px);
+    top: 0%;
+  }
+  #openSidebar{
+    display: block !important;
+    cursor: pointer !important;
+    margin-top: 17px;
+  }
+  img#closebtn {
+     display: block;
+     top: 3%;
+    left: 5%;
+  }
+
+  .__dast {
+    margin-top: 0%;
+  }
+
+
+  .__dasepl {
+    margin: 7% 0 0 0;
+    width: 100%;
+  }
+
+  .__dasepl1 {
+    margin: 45px 8px 9px 0;
+    width: 100%;
+  }
+
+  .__dascard {
+    width: 100%;
+  }
+
+  .__dashnav{
+    z-index: 1;
+  }
+
+  .__dasepl span:nth-child(1) {
+    padding: 14px 29px;
+    margin-left: 24%;
+  }
+
+  .__dascard p:nth-child(2) {
+    font-size: 14px;
+  }
+
+  .__dascard p:nth-child(3) {
+    font-size: 20px;
+  }
+
+  .__dasempl {
+    margin: 12px 8px 9px 0px;
+    width: 736px;
+  }
+
+  .__pa {
+    margin: 45px 8px 9px 0px;
+    width: 100%;
+  }
+  .__addag {
+    margin: 45px 8px 9px 0px;
+    width: 100%;
+  }
+
+  .bigers {
+    width: 66%;
+    margin-top: 0%;
+    margin-left: 148px;
+  }
+
+  .__tabov {
+    margin: 7% 0 0 0px;
+    width: 100%;
+  }
+
+  .__trvto {
+    padding: 10px 24px 3px;
+  }
+
+  .__nav-pills li a {
+    padding: 20px 5px 9px;
+  }
+
+  .__profbtn {
+    width: 140px;
+  }
+
+  .__prof1btn {
+    width: 140px;
+  }
+
+  .__travtbids {
+    padding: 5px 1px;
+  }
+
+  .__pfin {
+    padding: 33px 30px;
+  }
+
+
+}
+
+
+@media screen and (max-width: 568px) {
+
+    .__dast{
+    margin-top: 10%;
+  }
+
+  .__dashnav{
+    z-index: 1;
+    height: 56px;
+  }
+  
+  .biger{
+    width: 80% ;
+    transform: translate(0px) !important;
+    z-index:1  !important;
+    
+  }
+
+  .leftbar{
+    transform: translate(-1000px);
+    top: 0%;
+  }
+
+  .leftbart{
+    transform: translate(-1000px);
+    top: 0%;
+  }
+  #openSidebar{
+    display: block !important;
+    cursor: pointer !important;
+  }
+
+  /*for image close*/
+  img#closebtn {
+     display: block;
+     top: 3%;
+    left: 5%;
+  }
+
+  i#closebtn {
+     display: block;
+     top: 2%;
+    left: 5%;
+  }
+
+  #openSidebar {
+    margin-top: 2px;
+  }
+
+  .maianer {
+      padding: 10px 20px;
+  }
+  .mr-125 { right:125px !important; }
+
+
+  /*right slider side*/
+  .bigers {
+    width: 82%;
+    margin-top: 0%;
+    margin-left: 57px;
+  }
+
+  img#rightclosebtns {
+    margin-left: 233px;
+  }
+
+/*end*/
+
+  .__profimg {
+    margin-left: 77px;
+  }
+
+
+  .__dasepl {
+    width: 100%;
+    margin: 12% 0 0 !important;
+  }
+
+  .__dasepl1 {
+    margin: 0;
+    width: 100%;
+  }
+
+  .__dascard {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .__dasepl span:nth-child(1) {
+    padding: 0;
+    margin-left: 0;
+  }
+
+  .__dasepl span:nth-child(3) {
+    padding: 4px;
+  }
+
+  .__dassc {
+    margin-bottom: 10px;
+  }
+
+  /*.__logo {
+    width: 80px;
+    margin-top: -10px;
+    margin-left: 48px;
+  }*/
+
+  .navbar-toggle {
+    /* border: 2px solid #FFFFFF; */
+    color: #ffffff;
+    background: #f0842d;
+  }
+
+  .__dascard p:nth-child(2) {
+    font-size: 10px;
+    margin-bottom: 0px;
+    padding: 3px 10px;
+  }
+  .__dascard p:nth-child(3) {
+    font-size: 15px;
+    margin-bottom: 0px;
+    padding: 3px 10px 10px;
+  }
+
+  .__pa {
+    margin: 1px 8px 9px 0px;
+    width: 100%;
+  }
+  .__addag {
+    margin: 1px 8px 9px 0px;
+    width: 100%;
+  }
+
+  .__pro1 {
+    font-size: 12px;
+  }
+
+  .__pro2 {
+    font-size: 12px;
+  }
+
+  .__pfin {
+    padding: 20px 10px;
+  }
+
+  .__pfpa {
+    padding: 10px 27px;
+  }
+
+  .__prof {
+    padding: 12px 11px;
+  }
+
+  .__setp {
+    border: 1px solid #e6e6e6;
+    text-align: center;
+    padding: 20px 9px;
+  }
+
+  .__tabov {
+    margin: 17% 0 0 0px;
+    width: 100%;
+  }
+
+  .__trvto {
+    padding: 10px 13px 3px;
+  }
+
+  .__nav-pills li a {
+    padding: 20px 2px 9px;
+  }
+
+  .__tab {
+    padding: 15px 9px;
+  }
+
+  .__upl {
+    padding: 25px 15px;
+  }
+
+  .__it .btn-new, .__it .btn-next {
+    margin: 5px 0px;
+    font-size: 16px;
+    width: 123px;
+  }
+
+  .__accordion {
+    padding: 18px 20px;
+  }
+
+  .panel {
+    padding: 0 18px;
+  }
+
+  .__profbtn {
+    width: 120px;
+  }
+  .__prof1btn {
+    width: 120px;
+  }
+
+  .__proft {
+    border-right: none;
+  }
+
+  .__prp{
+    text-align: center;
+  }
+
+  .__prp p:nth-child(1) {
+    font-size: 11px;
+  }
+
+  .__prp p:nth-child(2) {
+    font-size: 11px;
+  }
+
+  .__prp p:nth-child(3) {
+    font-size: 14px;
+  }
+  .__prp p:nth-child(4) {
+    font-size: 12px;
+  }
+
+  
+
+  .__bidq {
+    margin-top: -5px;
+    margin-left: -6px;
+  }
+
+  .__bids img {
+    width: 30px;
+    height: 32px;
+    margin-top: -35px;
+  }
+
+  .__bids7 p:nth-child(1) {
+    font-size: 12px;
+  }
+
+  .__bids7 p:nth-child(2) {
+    font-size: 11px;
+  }
+  .__bidsp p {
+    font-size: 11px;
+  }
+
+
+
+}
+
+
+/*=================================================================
+  Dashboard Css end
+==================================================================*/
+
+
+
+
+
+
+
+
+/*=================================================================
+  @media screen 1440px
+==================================================================*/
+
+
+@media screen and (min-width: 1440px){
+   
+
+
+
+}
+
+/*=================================================================
+  @media screen 1199px
+==================================================================*/
+
+
+@media screen and (max-width: 1199px){
+   
+  
+
+}
+
+
+/*=================================================================
+  @media screen 1220px
+==================================================================*/
+
+
+@media screen and (max-width: 1220px){
+  
+ .__profile-quote {
+    margin-top: 34%;
+  }
+
+  .__profile-quote1 {
+    margin-top: 24%;
+  }
+
+  .__abcover {
+    width: 100%;
+  }
+  .__medlibrarybg {
+    padding: 28px;
+  }
+
+}
+
+
+/*=================================================================
+  @media screen 1024px
+==================================================================*/
+
+
+@media screen and (max-width: 1024px){
+  /*Medilad*/
+  .__headtext h1 {
+    font-size: 54px;
+  }
+
+  .__headtext p {
+    font-size: 20px;
+  }
+
+  .__cardsubpm {
+    padding: 15px 25px 20px;
+  }
+
+  .__cardsubpc {
+    padding: 15px 25px 20px;
+  }
+
+  .__cardsubpd {
+    padding: 15px 25px 20px;
+  }
+
+  .__cardsub img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .__cardd img {
+    width: 100%;
+    height: 137px;
+  }
+
+  .__medsec {
+    margin-top: 29%;
+  }
+
+  .__profile-quote {
+    height: 100%;
+    margin-top: 577px;
+  }
+
+  .__eventbgimg {
+    width: 100%;
+  }
+
+  .__mednewsimg {
+    border: none;
+    padding: 0;
+    background: #ffffff;
+  }
+
+  .__profile-quote1 {
+    height: 100%;
+   margin-top: 550px;
+  }
+
+  .__socialp {
+   margin-top: 5%;
+  }
+
+
+  /*second part*/
+  .__alumi {
+    font-size: 28px;
+  }
+
+  .__alumihr {
+    margin-top: 44px;
+    margin-left: -125px;
+  }
+  
+
+  .__abcover {
+    width: 100%;
+  }
+
+  .__alumihrhis {
+     margin-left: -277px;
+  }
+
+  .__tabimg {
+    width: 100%;
+    height: 417px;
+  }
+
+  .__alumihrapp {
+    margin-left: -232px;
+  }
+ 
+
+  .__mediin {
+    padding: 30px 26px;
+  }
+
+  .__medihigh {
+    padding: 40px 0px;
+  }
+
+  .__mediresearch {
+    padding: 30px 43px;
+  }
+  
+
+  .__resercicon img{
+    width: 60px;
+    height: 60px;
+  }
+
+  .__alumihrc {
+    margin-left: -177px;
+  }
+
+  .__alumicontp {
+    font-size: 15px;
+    letter-spacing: 1px;
+  }
+
+  .__icon {
+    margin-left: 0px;
+  }
+
+}
+
+
+/*=================================================================
+  @media screen 992px
+==================================================================*/
+
+
+@media screen and (max-width: 992px){
+  /*Medilad*/
+  .__medlibrarybg {
+    padding: 20px;
+  }
+  /*end*/
+
+
+  
+
+
+}
+
+
+/*=================================================================
+  @media screen 800px
+==================================================================*/
+
+@media screen and (max-width: 800px){
+  /*Medilad*/
+
+  .__headtext h1 {
+    font-size: 50px;
+  }
+
+  .__headtext p {
+    font-size: 25px;
+  }
+
+  .__carousel-inner {
+    height: 100%;
+  }
+
+  .__wave {
+    margin-top: -38px;
+  }
+
+  .__cardsubpm {
+    padding: 15px 13px 20px;
+  }
+
+  .__cardsubpc {
+    padding: 15px 13px 20px;
+  }
+
+  .__cardsubpd {
+    padding: 15px 13px 20px;
+  }
+
+  .__cardsubpm p:nth-child(1) {
+    font-size: 17px;
+  }
+
+  .__cardsubpm p:nth-child(2) {
+    font-size: 11px;
+  }
+
+  .__cardsubpc p:nth-child(1) {
+    font-size: 17px;
+  }
+
+  .__cardsubpc p:nth-child(2) {
+    font-size: 11px;
+  }
+
+  .__cardsubpd p:nth-child(1) {
+    font-size: 17px;
+  }
+
+  .__cardsubpd p:nth-child(2) {
+    font-size: 11px;
+  }
+
+
+  .__profile-quote {
+    height: 100%;
+    margin-top: 898px;
+  }
+
+  .__profile-quote .__portrait {
+    margin-top: 10px;
+  }
+
+  .__eventbgimg {
+    width: 100%;
+  }
+  .__logoimg{
+    width: 70px;
+    margin-top: -22px;
+  }
+
+  /*.__medsubt {
+    margin: -66% 0 0 0%;
+    width: 100%;
+  }*/
+
+  .__cardsub img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .__cardd img {
+    width: 100%;
+  }
+
+  .__medsec {
+    margin-top: 40%;
+  }
+
+  .__mednewsimg {
+    border:none;
+    padding: 0;
+  }
+
+  .__mednewssideimg p {
+    top: 219px;
+  }
+
+  .__profile-quote1 {
+    height: 100%;
+   margin-top: 800px;
+  }
+
+  .__mednewsdt {
+    padding: 20px 0px;
+  }
+
+  .__profile-quote1 .__portrait1 {
+    margin-top: 13px;
+  }
+
+  .__newsf {
+    padding: 66px 0;
+  }
+
+  .__newsform button {
+    width: 100%;
+  }
+
+  .__socialp {
+    margin-top: 20px;
+  }
+
+  .__footcollege p {
+    font-size: 13px;
+  }
+
+  .parallax {
+    padding-top: 59%;
+  }
+
+  /*second part*/
+  .__alumi {
+    font-size: 25px;
+  }
+
+  .__alumihr {
+    margin-top: 40px;
+    margin-left: -125px;
+  }
+
+  .__fmspg {
+    padding: 8px 57px 44px;
+  }
+
+  .__fmspg h1 {
+    font-size: 70px;
+    letter-spacing: 4px;
+  }
+
+  .__fmspg p:nth-child(2) {
+    font-size: 28px;
+    letter-spacing: 0.1px;
+  }
+
+  .__weplay p {
+    font-size: 23px;
+    letter-spacing: 2.5px;
+    padding: 9px 0;
+  }
+
+  .__weplayd p {
+    font-size: 23px;
+    letter-spacing: 2.5px;
+    padding: 9px 0;
+  }
+
+  .__weplays p {
+    font-size: 23px;
+    letter-spacing: 2.5px;
+    padding: 9px 0;
+  }
+
+  .__fcardsub {
+    padding: 15px 8px 20px;
+  }
+
+  .__fcardsub p:nth-child(1) {
+    font-size: 16px;
+    letter-spacing: 1.7px;
+  }
+  
+
+  .__abcover {
+    width: 100%;
+  }
+
+  .__card img {
+    height: 171px;
+  }
+
+
+  .__alumihrhis {
+    margin-left: -187px;
+  }
+
+  .__tabimg {
+    width: 100%;
+    height: 100%;
+    margin-top: 5%;
+  }
+
+  .__cardh {
+    height: 100%;
+  }
+
+  .__alumihrapp {
+    margin-left: -143px;
+  }
+
+  .__newsright p {
+    font-size: 20px;
+  }
+
+  .__newsmini p:nth-child(2) {
+    font-size: 12px;
+  }
+
+  .__newsmini1 img {
+    width: 161px;
+  }
+
+  .__newsmini1 p:nth-child(2) {
+    font-size: 14px;
+  }
+
+  .__medlibrarybg {
+    padding: 0;
+  }
+
+  .__mediin {
+    padding: 30px 63px;
+  }
+
+  .__medihigh {
+    padding: 40px 22px;
+  }
+
+  .__medlnewsimg img {
+    width: 72px;
+  }
+
+  .__mediresearch {
+    padding: 30px 19px;
+  }
+
+  .__researchimg p:nth-child(2) {
+    padding: 12px 5px;
+  }
+
+  .__researchimg p:nth-child(3) {
+    padding: 3px 3px;
+  }
+
+  .__researchimg1 p:nth-child(1) {
+    padding: 7px 10px;
+  }
+
+  .__researchimg1 p:nth-child(2) {
+    padding: 5px 10px;
+  }
+
+  .__modal-dialogr {
+    width: 100%;
+  }
+
+  .__resercicon img{
+    width: 60px;
+    height: 60px;
+  }
+
+  .__reserciconrt {
+    border-right: none;
+  }
+
+  .__alumihrc {
+    margin-left: -170px;
+  }
+
+  .__card p:nth-child(2) {
+    font-size: 10px;
+  }
+
+  .__card p:nth-child(3) {
+    font-size: 13px;
+  }
+
+  .__card {
+    height: 300px;
+  }
+
+  .__fh {
+    font-size: 15px;
+  }
+
+  
+
+  /*end*/
+	
+  
+
+/*=================================================================
+  @media screen 767px
+==================================================================*/
+
+@media screen and (max-width: 767px){
+
+  .__headtext {
+    margin-top: 3%;
+  }
+
+  .__cardsub img {
+    width: 100%;
+    height: 328px;
+  }
+
+  .carousel-inner .item img{
+    height: 100%;
+  }
+
+  .__card {
+    height: 100%;
+  }
+
+  .navbar-toggle {
+    /* border: 2px solid #FFFFFF; */
+    color: #ffffff;
+    background: #f0842d;
+  }
+  
+  .parallax {
+    padding-top: 332%;
+  }
+
+  .__cardd {
+    margin-top: 0%;
+  }
+
+  .__cardd img {
+    height: 297px;
+  }
+
+  .__cardd p:nth-child(2) {
+    padding-top: 3%;
+  }
+
+  .__profile-quote .__portrait {
+    margin-top: -487px;
+  }
+
+  .__medworldclass {
+    margin-top: 5%;
+  }
+
+  .__profile-quote {
+    height: 100%;
+    margin-top: 1450px;
+  }
+
+  .__mednewssideimg p {
+    top: 240px;
+    width: 100%;
+  }
+
+  .__mednewsimg {
+    border: none;
+    padding: 4px 20px 9px 89px;
+  }
+
+  .__profile-quote1 {
+    height: 100%;
+    margin-top: -390px;
+  }
+
+  .__profile-quote1 .__portrait1 {
+    margin-top: -223px;
+  }
+
+  .__socialp {
+    margin-top: 358px;
+  }
+
+  /*second part*/
+  .__alumihr {
+    margin-top: 16px;
+    margin-bottom: 0;
+    margin-left: 0px;
+  }
+
+  .__alumihrhis {
+    margin-top: 6px;
+    margin-left: 0;
+  }
+
+  .__tabimg {
+    width: 100%;
+    height: 100%;
+    margin-top: 5%;
+  } 
+
+  .__fmspg {
+    padding: 4px 22px 17px;
+  }
+
+  .__fmspg h1 {
+    font-size: 50px;
+    letter-spacing: 0px;
+  }
+
+  .__weplay p {
+    font-size: 23px;
+    padding: 9px 0;
+  }
+
+  .__weplayd p {
+    font-size: 23px;
+    padding: 9px 0;
+  }
+  .__weplays p {
+    font-size: 23px;
+    padding: 9px 0;
+  }
+
+  .__fcard img {
+    height: 379px;
+  }
+  
+
+  .__abcover {
+    width: 100%;
+    padding: 16px 0;
+  }
+
+  .__cardh {
+    height: 100%;
+    margin-top: 10px;
+  }
+
+  .__cardh img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .__alumihrapp {
+    margin-top: 15px;
+    margin-left: 0px;
+  }
+
+  .__medlnewsimg img {
+    width: 100%;
+  }
+
+  .__researchimg img {
+    float: left;
+  margin-right: 10px;
+  width: 209px;
+  }
+
+  .__researchimg1 {
+    margin-top: 10px;
+  }
+
+  .__researchimg1 img {
+    float: left;
+  margin-right: 10px;
+  width: 209px;
+  }
+
+  .__researchimg p:nth-child(2) {
+    text-align: unset;
+  }
+
+  .__researchimg p:nth-child(3) {
+    text-align: unset;
+  }
+
+  .__modal-dialogr {
+    width: 100%;
+  }
+
+  .__proff img {
+    width: 100%;
+  }
+
+  .__proff p {
+     margin-top: 2%;
+}
+
+.__resercicon {
+    border-right: none;
+  }
+
+  .__alumihraw {
+    margin-top: 8px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+  }
+
+  .__alumihrc {
+    margin-top: 8px;
+    margin-left: 0;
+    margin-bottom: 0;
+  }
+
+  .__alumihrg {
+    margin-top: 8px;
+    margin-bottom: 0;
+    margin-left: 0;
+  }
+
+
+  
+  /*end*/
+
+
+ 
+
+
+
+
+}
+
+
+/*=================================================================
+  @media screen 560px
+==================================================================*/
+
+
+  @media screen and (max-width: 560px){
+
+  /*Medilad*/
+
+  .__headtext h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .__headtext p {
+    font-size: 20px;
+    text-align: center;
+  }
+  .__logoimg{
+    width: 45px;
+    margin-top: -13px;
+  }
+
+ .__carousel-inner .item img {
+    height: 305px;
+    width: 100%;
+  }
+
+  .__headtext {
+    margin-top: 2%;
+  }
+
+  .__headline {
+    margin-top: 0%;
+  }
+
+  .__cardsubpm p:nth-child(1) {
+    font-size: 20px;
+  }
+
+  .__cardsubpm p:nth-child(2) {
+    font-family: AvenirLTStd-Medium;
+    font-size: 12px;
+  }
+
+  .__cardsubpc p:nth-child(1) {
+    font-size: 20px;
+  }
+
+  .__cardsubpc p:nth-child(2) {
+    font-family: AvenirLTStd-Medium;
+    font-size: 12px;
+  }
+
+  .__cardsubpd p:nth-child(1) {
+    font-size: 20px;
+  }
+
+  .__cardsubpd p:nth-child(2) {
+    font-family: AvenirLTStd-Medium;
+    font-size: 12px;
+  }
+
+  .__caption p:nth-child(1) {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .__caption p:nth-child(2) {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .__cardsub img {
+    width: 100%;
+    height: 100%;
+  }
+
+  /*.__medsubt {
+    margin: -15% 0 0 0;
+    position: unset;
+    width: 100%;
+  }*/
+
+
+  .__carousel-inner {
+    height: 100%;
+  }
+
+  .__wave {
+    margin-top: -51px;
+  }
+  .__cardsub {
+    margin-top: 5px;
+  }
+
+  .__medsec {
+    margin-top: 760px;
+  }
+
+  .__cardd img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .__socialp {
+    width: 100%;
+    margin-top: 94px;
+  }
+
+  .__eventbgimg {
+    margin-top: -274px;
+    width: 100%;
+  }
+
+  .__newimg{
+  width: 100%;
+  }
+
+  .__medworldclass p {
+    font-size: 18px;
+  }
+
+  .__mednewssideimg img {
+    height: 100%;
+  }
+
+  .__mednewssideimg p {
+    top: 105px;
+    font-size: 13px;
+    padding: 13px 12px 24px;
+  }
+
+  .__mednewsimg img {
+    width: 58px;
+  }
+
+  .__profile-quote1 {
+    height: 100%;
+    margin-top: 1087px;
+  }
+
+  .__profile-quote {
+        height: 100%;
+     margin-top: 1590px; 
+  }
+
+  .__lastparallax {
+    padding-top: 0% !important;
+  }
+
+  .__newsf {
+    padding: 19px 0;
+  }
+  .__newsform button {
+    width: 100%;
+  }
+
+  .parallax {
+    padding-top: 0%;
+  }
+
+  .parallax .para {
+     position: unset; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+  }
+
+  .__profile-quote .__portrait {
+    margin-top: -687px;
+  }
+
+  .__profile-quote1 .__portrait1 {
+    margin-top: -279px;
+  }
+
+  .__parabw {
+    background: #ffffff;
+    padding: 20px 0;
+  }
+
+  .__mednewsside{
+    margin-top: 20px;
+  }
+
+  .__mednewsside p:nth-child(1) {
+    font-size: 28px;
+  }
+
+  .__mednewsdt {
+    padding: 0;
+  }
+
+  .__mednewsimg {
+    border: 1px solid #e8e8e8;
+    padding: 8px;
+  }
+  /*end*/
+
+
+  /*second part*/
+  .__alumi {
+    font-size: 24px;
+  }
+  .__alumihr {
+    margin-top: 6px;
+    margin-bottom: 0;
+    margin-left: 0;
+  }
+
+  .__alumihrapp {
+    margin-top: 15px;
+    margin-left: 0;
+  }
+
+  .__alumip {
+    font-size: 13px;
+    text-align: unset;
+  }
+
+  .__alumicontp {
+    font-size: 13px;
+    letter-spacing: 1px;
+  }
+
+  .__icon {
+    font-size: 21px;
+    color: #919191;
+    margin-left: 19px;
+  }
+
+  .__fmspg {
+    padding: 0;
+  }
+
+  .__fmspg h1 {
+    font-size: 36px;
+    letter-spacing: 0px;
+  }
+
+  .__fmspg p:nth-child(2) {
+    font-size: 19px;
+    letter-spacing: 0.1px;
+  }
+
+  .__fmspg p:nth-child(3) {
+    font-size: 14px;
+    letter-spacing: 0.2px;
+  }
+
+  .__weplay p {
+    font-size: 17px;
+    line-height: 1.37;
+    letter-spacing: 1.5px;
+  }
+
+  .__weplayd p {
+    font-size: 17px;
+    line-height: 1.37;
+    letter-spacing: 1.5px;
+  }
+
+  .__weplays p {
+    font-size: 17px;
+    line-height: 1.37;
+    letter-spacing: 1.5px;
+  }
+
+  .__fcardsub {
+    padding: 15px 10px 20px;
+  }
+
+  .__fcardsub p:nth-child(1) {
+    font-size: 20px;
+    letter-spacing: 1.2px;
+  }
+
+  .__fcardsub p:nth-child(2) {
+    font-size: 12px;
+    letter-spacing: 2.2px;
+  }
+
+  .__abbgcolor {
+    padding: 12px 0;
+  }
+
+  .__abcover {
+    width: 100%;
+  }
+
+  .__abvm p:nth-child(1) {
+    margin-top: 13px;
+  }
+
+  .carousel-inner .item img {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .__fcard img {
+    height: 100%;
+  }
+
+  .__doyou {
+    font-size: 17px;
+  }
+
+  .__mdlpg h1 {
+    font-size: 40px;
+    padding: 10px 0;
+  }
+
+  .__medlibrarybg {
+    padding: 0;
+  }
+
+  .__mediin {
+    padding: 20px 0px;
+  }
+
+  .__medihigh {
+    padding: 20px 0px;
+  }
+
+  .__mediresearch {
+    padding: 30px 0;
+  }
+  .__medimore {
+    padding: 10px 0;
+  }
+
+  .__medlnewsimg img {
+    width: 78px;
+  }
+
+  .__researchimg img {
+    width: 100%;
+  }
+
+  .__researchimg1 img {
+    width: 100%;
+  }
+
+  .__researchimg1 {
+    margin-top: 10px;
+  }
+
+  .__modal-dialogr {
+    width: 100%;
+  }
+
+  .__proff img {
+    width: 100%;
+  }
+
+  .__bodyms {
+    padding: 23px 20px;
+  }
+
+  .__bodyms p:nth-child(1) {
+    font-size: 18px;
+  }
+
+  .__researchbg h1 {
+    font-size: 30px;
+    padding: 30px 0;
+  }
+
+
+  .__resdown {
+    padding: 30px 0;
+    margin: 5% 0 5%;
+  }
+
+  .__resercicon {
+    border-right: none;
+  }
+
+  .__resercicon img{
+    width: 60px;
+    height: 60px;
+  }
+
+
+  .__alumihraw {
+    margin-top: 8px;
+    margin-bottom: 0px;
+  }
+
+
+  .__alumihrc {
+    margin-top: 8px;
+    margin-bottom: 0;
+    margin-left: 0;
+  }
+
+  .__alumihrg {
+    margin-top: 8px;
+    margin-bottom: 0;
+    margin-left: 0;
+  }
+
+  .__alumihrg {
+    margin-left: 0;
+  }
+
+  .__card {
+    height: 100%;
+  }
+
+  .__unih1 {
+    font-size: 20px;
+    letter-spacing: 2px;
+  }
+
+  .__alumihrhis {
+   margin-bottom: 0;
+  }
+  
+
+  .__notif {
+    width: 100%;
+    padding: 26px 4px 1px;
+  }
+
+  .__notif p {
+    font-size: 13px;
+    padding: 10px 8px;
+  }
+
+
+}
+
