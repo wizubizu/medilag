@@ -733,7 +733,7 @@ a:focus, a:hover {
   font-size: 14px;
   font-weight: 900;
   line-height: 1.36;
-  letter-spacing: 2.7px;
+  letter-spacing: 1px;
   color: #168aa5;
 }
 
@@ -764,7 +764,7 @@ a:focus, a:hover {
   font-size: 14px;
   font-weight: 900;
   line-height: 1.36;
-  letter-spacing: 2.7px;
+  letter-spacing: 1px;
   color: #3d49d1;
 }
 
@@ -795,7 +795,7 @@ a:focus, a:hover {
   font-size: 14px;
   font-weight: 900;
   line-height: 1.36;
-  letter-spacing: 2.7px;
+  letter-spacing: 1px;
   color: #4a90e2;
 }
 
@@ -1910,7 +1910,7 @@ img {
   font-size: 22px;
   font-weight: 900;
   line-height: 1.36;
-  letter-spacing: 4.2px;
+  letter-spacing: 2px;
   color: #616161;
   font-family: AvenirLTStd-Heavy;
 }
@@ -1919,8 +1919,8 @@ img {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.69;
-  letter-spacing: 3.2px;
-  color: #969696;
+  letter-spacing: 1px;
+  /*color: #969696;*/
   font-family: AvenirLTStd-Medium;
 }
 
@@ -1943,7 +1943,7 @@ img {
   font-family: AvenirLTStd-Medium;
   line-height: 1.35;
   letter-spacing: 3.2px;
-  color: #969696;
+  /*color: #969696;*/
   padding: 20px 0 0;
 }
 
@@ -1952,7 +1952,7 @@ img {
   font-weight: 900;
   font-family: AvenirLTStd-Heavy;
   line-height: 1.38;
-  letter-spacing: 3.1px;
+  letter-spacing: 1px;
   color: #404040;
   padding: 0 0 10px;
 }
@@ -2103,7 +2103,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
   font-size: 26px;
   font-weight: 900;
   line-height: 1.38;
-  letter-spacing: 3.4px;
+  letter-spacing: 1px;
   color: #404040;
   font-family: AvenirLTStd-Black;
 }
@@ -2135,7 +2135,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
   font-family: AvenirLTStd-Medium;
   line-height: 1.35;
   letter-spacing: 3.2px;
-  color: #969696;
+  /*color: #969696;*/
   padding: 20px 0 0;
 }
 
@@ -2144,7 +2144,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
   font-weight: 900;
   font-family: AvenirLTStd-Heavy;
   line-height: 1.38;
-  letter-spacing: 3.1px;
+  letter-spacing: 1px;
   color: #404040;
 }
 
@@ -2220,7 +2220,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 #accordion .panel-body{
     padding: 0px 15px;
     border: none;
-    font-size: 14px;
+    font-size: 17px;
     color: #615f5f;
     line-height: 27px;
 }
@@ -2246,11 +2246,11 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 
 .__unipa{
   /*width: 645px;*/
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 500;
   line-height: 1.38;
-  letter-spacing: 2.7px;
-    color: #676767;
+  letter-spacing: 1px;
+    /*color: #676767;*/
     /*font-family: AvenirLTStd-Medium;*/
 }
 
@@ -2291,7 +2291,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
   font-size: 19px;
   font-weight: bold;
   line-height: 1.25;
-  letter-spacing: 1.6px;
+  letter-spacing: 1px;
   color: #2e2e2e;
   font-family: AvenirLTStd-Black;
 }
@@ -2301,7 +2301,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
   font-weight: 500;
   line-height: 1.36;
   letter-spacing: 1.1px;
-  color: #969696;
+  /*color: #969696;*/
 }
 
 .__newsmarginr{
@@ -2329,7 +2329,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
   font-size: 23px;
   font-weight: bold;
   line-height: 1.25;
-  letter-spacing: 1.6px;
+  letter-spacing: 1px;
   color: #2e2e2e;
   font-family: AvenirLTStd-Black;
 }
@@ -2339,7 +2339,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
   font-weight: 500;
   line-height: 1.36;
   letter-spacing: 1.1px;
-  color: #969696;
+  /*color: #969696;*/
 }
 
 .__newsmass{
@@ -2708,7 +2708,7 @@ ul.b {
  .__resercicon p{
   font-size: 13px;
   line-height: 1.44;
-  letter-spacing: 3.7px;
+  letter-spacing: 1px;
   text-align: center;
   color: #474747;
   font-family: AvenirLTStd-Medium;
@@ -2728,7 +2728,7 @@ ul.b {
  .__ressupport{
   font-size: 24px;
   line-height: 1.42;
-  letter-spacing: 4px;
+  letter-spacing: 2px;
   color: #474747;
  }
 
@@ -2736,7 +2736,7 @@ ul.b {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.39;
-  color: #969696;
+  /*color: #969696;*/
  }
 
  .__reseourr{
@@ -2750,16 +2750,16 @@ ul.b {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.38;
-  letter-spacing: 2.7px;
+  letter-spacing: 1px;
   text-align: center;
-  color: #969696;
+  /*color: #969696;*/
  }
 
  .__reswelhode{
-  font-size: 16px;
-  font-weight: 500;
+  font-size: 24px;
+  font-weight: 600;
   line-height: 1.38;
-  letter-spacing: 2.7px;
+  letter-spacing: 1px;
   text-align: center;
   color: #404040;
  }
@@ -3052,7 +3052,7 @@ ul.b {
   font-weight: 500;
   line-height: 1.33;
   letter-spacing: 2.3px;
-  color: #969696;
+  /*color: #969696;*/
   padding: 9px 20px;
 }
 .__gimg p:nth-child(3){
@@ -3107,7 +3107,7 @@ ul.b {
   font-size: 14px;
   font-weight: 500;
   line-height: 1.38;
-  color: #676767a6;
+  /*color: #676767a6;*/
   font-family: AvenirLTStd-Medium;
 }
 
