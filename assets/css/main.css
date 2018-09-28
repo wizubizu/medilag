@@ -470,7 +470,7 @@ a:focus, a:hover {
   font-weight: 800;
   font-family: Montserrat-ExtraBold;
   line-height: 1;
-  letter-spacing: 9.5px;
+  letter-spacing: 3px;
   color: #545454;
 }
 
@@ -479,7 +479,7 @@ a:focus, a:hover {
   font-weight: 500;
   font-family: AvenirLTStd-Medium;
   line-height: 1.38;
-  letter-spacing: 7.7px;
+  letter-spacing: 1px;
   color: #878787;
 }
 
@@ -500,7 +500,7 @@ a:focus, a:hover {
   font-weight: 900;
   font-family: AvenirLTStd-Heavy;
   line-height: 1.1;
-  letter-spacing: 1.5px;
+  letter-spacing: 1px;
   text-align: center;
   color: #404040;
 }
@@ -589,14 +589,9 @@ a:focus, a:hover {
 }
 
 .__navfa:hover{
-  font-size: 12px;
-  font-weight: 900;
-  line-height: 1.38 !important;
-  letter-spacing: 0.5px;
+  
   background: #16aacd !important;
   color: #fff !important;
-  padding: 28px 15px !important;
-  font-family:AvenirLTStd-Heavy;
 }
 
 
@@ -711,9 +706,9 @@ a:focus, a:hover {
 }
 
 .__cardsubpm p:nth-child(1){
-  font-family: AvenirLTStd-Heavy;
+  /*font-family: AvenirLTStd-Heavy;*/
   font-size: 24px;
-    font-weight: 900;
+    /*font-weight: 900;*/
     line-height: 1.36;
     letter-spacing: 1px;
     color: #16aacd;
@@ -725,16 +720,20 @@ a:focus, a:hover {
   font-weight: 500;
   line-height: 1.4;
   letter-spacing: 1px;
-  color: #676767;
+  /*color: #676767;*/
 }
 
 .__cardsubpm p:nth-child(3){
-  font-family: AvenirLTStd-Heavy;
+  /*font-family: AvenirLTStd-Heavy;*/
   font-size: 14px;
-  font-weight: 900;
+  /*font-weight: 900;*/
   line-height: 1.36;
   letter-spacing: 1px;
   color: #168aa5;
+}
+
+.__cardsubpm span{
+  font-size: 10px;
 }
 
 .__cardsubpc{
@@ -742,9 +741,9 @@ a:focus, a:hover {
 }
 
 .__cardsubpc p:nth-child(1){
-  font-family: AvenirLTStd-Heavy;
+  /*font-family: AvenirLTStd-Heavy;*/
   font-size: 24px;
-    font-weight: 900;
+    /*font-weight: 900;*/
     line-height: 1.36;
     letter-spacing: 1px;
     color: #3d49d1;
@@ -756,16 +755,20 @@ a:focus, a:hover {
   font-weight: 500;
   line-height: 1.4;
   letter-spacing: 1px;
-  color: #676767;
+  /*color: #676767;*/
 }
 
 .__cardsubpc p:nth-child(3){
-  font-family: AvenirLTStd-Heavy;
+  /*font-family: AvenirLTStd-Heavy;*/
   font-size: 14px;
-  font-weight: 900;
+  /*font-weight: 900;*/
   line-height: 1.36;
   letter-spacing: 1px;
   color: #3d49d1;
+}
+
+.__cardsubpc span{
+  font-size: 10px;
 }
 
 .__cardsubpd{
@@ -773,9 +776,9 @@ a:focus, a:hover {
 }
 
 .__cardsubpd p:nth-child(1){
-  font-family: AvenirLTStd-Heavy;
+  /*font-family: AvenirLTStd-Heavy;*/
   font-size: 24px;
-    font-weight: 900;
+    /*font-weight: 900;*/
     line-height: 1.36;
     letter-spacing: 1px;
     color: #4a90e2;
@@ -787,16 +790,19 @@ a:focus, a:hover {
   font-weight: 500;
   line-height: 1.4;
   letter-spacing: 1px;
-  color: #676767;
+  /*color: #676767;*/
 }
 
 .__cardsubpd p:nth-child(3){
-  font-family: AvenirLTStd-Heavy;
+  /*font-family: AvenirLTStd-Heavy;*/
   font-size: 14px;
-  font-weight: 900;
+  /*font-weight: 900;*/
   line-height: 1.36;
   letter-spacing: 1px;
   color: #4a90e2;
+}
+.__cardsubpd span{
+  font-size: 10px;
 }
 
 .__medsubt{
@@ -869,7 +875,7 @@ a:focus, a:hover {
   font-weight: 500;
   font-family: AvenirLTStd-Medium;
   line-height: 1.5;
-  letter-spacing: 2.6px;
+  letter-spacing: 1px;
   text-align: center;
   color: #ffffff;
 }
@@ -894,7 +900,7 @@ a:focus, a:hover {
   font-size: 22px;
   font-weight: 900;
   line-height: 1.1;
-  letter-spacing: 4.2px;
+  /*letter-spacing: 1px;*/
   color: #616161;
   font-family: AvenirLTStd-Heavy;
 }
@@ -923,7 +929,7 @@ a:focus, a:hover {
     font-weight: 500;
     line-height: 1.1;
     letter-spacing: 0.6px;
-    color: #969696;
+    color: #676767;
     font-family: AvenirLTStd-Medium;
 }
 
@@ -932,7 +938,7 @@ a:focus, a:hover {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 1px;
-    color: #676767;
+    /*color: #676767;*/
     font-family: AvenirLTStd-Medium;
 }
 
@@ -966,16 +972,16 @@ a:focus, a:hover {
       font-size: 22px;
     font-weight: 900;
     line-height: 1.36;
-    letter-spacing: 4.2px;
-    color: #616161;
+    /*letter-spacing: 4.2px;*/
+    /*color: #616161;*/
     font-family: AvenirLTStd-Heavy;
 }
 .__mednewsside p:nth-child(2){
   font-size: 17px;
     font-weight: 500;
     line-height: 1.69;
-    letter-spacing: 1px;
-    color: #969696;
+    /*letter-spacing: 1px;*/
+    /*color: #969696;*/
     font-family: AvenirLTStd-Medium;
 }
 
@@ -1076,7 +1082,7 @@ a:focus, a:hover {
   font-size: 22px;
   font-weight: 500;
   line-height: 1.32;
-  letter-spacing: 3.7px;
+  /*letter-spacing: 3.7px;*/
   font-family: AvenirLTStd-Medium;
   /*text-align: center;*/
   color: #6d6d6d;
@@ -1369,7 +1375,7 @@ img {
     font-weight: 500;
     font-family: AvenirLTStd-Medium;
     line-height: 1.39;
-    letter-spacing: 3px;
+    letter-spacing: 1px;
     color: #c3c3c3;
 }
 
@@ -2688,9 +2694,14 @@ ul.b {
  }*/
 
  .__researchp p{
+
   font-size: 16px;
+    font-weight: 500;
+    line-height: 1.69;
+    letter-spacing: 1px;
+  /*font-size: 16px;
   font-weight: 500;
-    line-height: 1.39;
+    line-height: 1.39;*/
     /*color: #676767;*/
  }
 
@@ -2734,8 +2745,12 @@ ul.b {
 
  .__reseour{
   font-size: 16px;
+    font-weight: 500;
+    line-height: 1.69;
+    letter-spacing: 1px;
+  /*font-size: 16px;
   font-weight: 500;
-  line-height: 1.39;
+  line-height: 1.39;*/
   /*color: #969696;*/
  }
 
@@ -2766,6 +2781,20 @@ ul.b {
 
  .__proff img{
   width: 194px;
+ }
+
+ .__prfimg{
+      width: 100%;
+    height: 200px;
+ }
+
+ .__profp{
+      margin-top: -33px;
+    margin-left: 34%;
+    font-size: 37px;
+    color: #ffffff;
+    font-weight: bolder;
+    font-family: AvenirLTStd-Black;
  }
 
  .__proff p{
@@ -3193,6 +3222,43 @@ ul.b {
 }*/
 
 /*carosel down end*/
+
+
+
+
+
+
+
+/*dropdown custom style*/
+.dropdown-menu {
+    position: absolute;
+    top: 77%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 160px;
+    padding: 13px 0;
+    margin: 2px 0 0;
+    font-size: 14px;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0,0,0,0.05);
+    border-radius: 0px;
+    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    box-shadow: 0 0px 9px 5px rgba(0, 0, 0, 0.03);
+}
+
+.navbar-right .dropdown-menu {
+    right: -39px;
+    }
+/*dropdown custom style end*/
+
+
 
 
 /*end

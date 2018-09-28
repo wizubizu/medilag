@@ -763,8 +763,13 @@
   }
 
   .__carousel-inner {
-    height: 100%;
+    height: 299px;
   }
+
+  .__carousel-inner .item img{
+    height: 300px !important;
+  }
+
 
   .__wave {
     margin-top: -38px;
@@ -836,6 +841,7 @@
 
   .__cardd img {
     width: 100%;
+    height: 215px;
   }
 
   .__medsec {
@@ -946,7 +952,7 @@
 
 
   .__alumihrhis {
-    margin-left: -187px;
+    margin-left: -281px;
   }
 
   .__tabimg {
@@ -1047,6 +1053,25 @@
   .__fh {
     font-size: 15px;
   }
+
+  .__navf {
+    font-size: 13px;
+    padding: 9px 6px !important;
+ }
+
+ .__navfa {
+    font-size: 15px;
+    padding: 8px 5px !important;
+ }
+
+ .__tabsin {
+    margin-top: 12px;
+  }
+
+  .navbar-right {
+    margin-top: 16px;
+  }
+
 
   
 
@@ -1706,6 +1731,11 @@
   .__notif p {
     font-size: 13px;
     padding: 10px 8px;
+  }
+
+  .__tabsin {
+    padding: 0px;
+    margin-top: 10px;
   }
 
 
