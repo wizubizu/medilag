@@ -3,7 +3,7 @@
 $(window).scroll(function(){
 
     // Add parallax scrolling to all images in .paralax-image container
-    $('.parallax').each(function(){
+    $('.parallax, .__profparallax, .__lastparallax').each(function(){
         // only put top value if the window scroll has gone beyond the top of the image
         if ($(this).offset().top < $(window).scrollTop()) {
         // Get ammount of pixels the image is above the top of the window

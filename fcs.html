@@ -38,7 +38,7 @@
 	<header>
 		
     	<nav class="navbar navbar-default __mednavbar" role="navigation">
-        	<div class="container">
+        	<div class="container-fluid">
         		<!-- Brand and toggle get grouped for better mobile display -->
         		<div class="navbar-header">
         			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
@@ -65,11 +65,12 @@
         			</form> -->
         			<ul class="nav navbar-nav navbar-right">
         				<li><a href="index.html" class="__navf">Home</a></li>
-        				<li><a href="history.html" class="__navf">About Us</a></li>
+        				<li><a href="#about" class="__navf">About Us</a></li>
+        				<li><a href="course.html" class="__navf">Courses</a></li>
 
         				<li class="dropdown">
-        					<a href="#" class="dropdown-toggle __navfa" data-toggle="dropdown">Faculties <!-- <b class="caret"></b> --></a>
-        					<ul class="dropdown-menu">
+        					<a href="#" class="dropdown-toggle __navf" data-toggle="dropdown">Departments <b class="caret"></b></a>
+        					<ul class="dropdown-menu __dropdown-menuhome">
         						<li><a href="fms.html">Basic Medical Sciences</a></li>
         						<li><a href="fcs.html">Clinical Sciences</a></li>
         						<li><a href="fds.html">Dental Sciences</a></li>
@@ -77,8 +78,8 @@
         				</li>
 
         				<li class="dropdown">
-        					<a href="#" class="dropdown-toggle __navf" data-toggle="dropdown">Alumni <!-- <b class="caret"></b> --></a>
-        					<ul class="dropdown-menu">
+        					<a href="#" class="dropdown-toggle __navf" data-toggle="dropdown">Alumni <b class="caret"></b></a>
+        					<ul class="dropdown-menu __dropdown-menuhome">
         						<li><a href="alumni_award.html">Alumni Awards & Donations</a></li>
         						<li><a href="alumni_News.html">Alumni Newsletter</a></li>
         						<li><a href="alumni_contact.html">Alumni Contact</a></li>
@@ -87,17 +88,27 @@
         				</li>
 
         				<li class="dropdown">
-        					<a href="" class="dropdown-toggle __navf" data-toggle="dropdown">Research </a>
-        					<ul class="dropdown-menu">
+        					<a href="#" class="dropdown-toggle __navf" data-toggle="dropdown">Staff <b class="caret"></b></a>
+        					<ul class="dropdown-menu __dropdown-menuhome">
+        						<li><a href="alumni_award.html">Alumni Awards & Donations</a></li>
+        						<li><a href="alumni_News.html">Alumni Newsletter</a></li>
+        						<li><a href="alumni_contact.html">Alumni Contact</a></li>
+        						<li><a href="alumni_Reg.html">Alumni Registration</a></li>
+        					</ul>
+        				</li>
+
+        				<li class="dropdown">
+        					<a href="" class="dropdown-toggle __navf" data-toggle="dropdown">Research <b class="caret"></b></a>
+        					<ul class="dropdown-menu __dropdown-menuhome">
         						<li><a href="research.html">Research Office</a></li>
         						<li><a href="">CMULHREC</a></li>
         					</ul>
         				</li>
 
-        				<li><a href="news.html" class="__navf">News & Events</a></li>
+        				<!-- <li><a href="news.html" class="__navf">News & Events</a></li> -->
         				<li><a href="admission.html" class="__navf">Admission</a></li>
-        				<li><a href="gallery.html" class="__navf">Gallery</a></li>
-        				<li><a href="contact.html" class="__navf">Contact Us</a></li>
+        				<li><a href="#" class="__navf">Quick Links</a></li>
+        				<!-- <li><a href="contact.html" class="__navf hidden-sm">Contact Us</a></li> -->
         				<!-- <li class="dropdown">
         					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
         					<ul class="dropdown-menu">
@@ -132,10 +143,9 @@
 	<section>
 		<div class="container">
 			<p class="__doyou">DO YOU WANT TO</p>
-			<hr class="__fhr">
+			<!-- <hr class="__fhr"> -->
 			<div class="row">
-				<div class="col-lg-2 col-md-2 col-sm-1"></div>
-				<div class="col-lg-4 col-md-4 col-sm-5">
+				<div class="col-lg-4 col-md-4 col-sm-4">
 					<a href=""><div class="__fcard">
 						<img src="assets/img/Best-science.jpg" class="img-responsive">
 						<div class="__fcardsub">
@@ -145,7 +155,7 @@
 						</div></a>
 					</div>
 				</div>
-				<div class="col-lg-4 col-md-4 col-sm-5">
+				<div class="col-lg-4 col-md-4 col-sm-4">
 					<a href=""><div class="__fcard">
 						<img src="assets/img/kenya.jpg" class="img-responsive">
 						<div class="__fcardsub">
@@ -155,14 +165,23 @@
 						</div></a>
 					</div>
 				</div>
-				<div class="col-lg-2 col-md-2 col-sm-1"></div>
+				<div class="col-lg-4 col-md-4 col-sm-4">
+					<a href=""><div class="__fcard">
+						<img src="assets/img/img2.jpg" class="img-responsive">
+						<div class="__fcardsub">
+							<p>Log on to CMUL Staff Mail </p>
+							<p>Norwegian Bokmål[edit]. Noun[edit]. luren m. definite singular of lur. Norwegian Nynorsk [edit]. Noun[edit].</p><br>
+							<p>Login</p>
+						</div></a>
+					</div>
+				</div>
 			</div>
 		</div>
 
-		<div class="__abbgcolor">
+		<div class="__abbgcolor" id="about">
 			<div class="container">
 				<p class="__doyou">ABOUT US</p>
-				<hr class="__fhr">
+				<!-- <hr class="__fhr"> -->
 				<div class="__abcover">
 					<div class="row">
 						<div class="col-lg-5 col-md-5 col-sm-6">
@@ -192,8 +211,205 @@
 		</div><br><br>
 
 		<div class="container">
+			<p class="__mednews">News and Events</p>
+			<!-- <hr class="__hr"> -->
+			<br><br>
+
+			<div class="row">
+				<div class="col-lg-7 col-md-7 col-sm-7">
+				 	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+				      	<!-- Indicators -->
+				      	<!-- <ol class="carousel-indicators __carousel-indicators">
+					        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+					        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+					        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+				      	</ol> -->
+
+				      	<!-- Wrapper for slides -->
+				      	<div class="carousel-inner __carousel-inners">
+				        	<div class="item active __item">
+				          		<img src="assets/img/event2.jpg" style="width:100%">
+					          	<div class="carousel-caption __carousel-caption">
+					            	<p>The opening of the main medical laboratory hall for all medical students</p>
+					          	</div>
+				        	</div>
+				    		<div class="item __item">
+				          		<img src="assets/img/event1.jpg" style="width:100%">
+				          		<div class="carousel-caption __carousel-caption">
+				            		<p>The opening of the main medical laboratory hall for all medical students</p>
+				          		</div>
+				        	</div>
+				        	<div class="item __item">
+				          		<img src="assets/img/event.jpeg" style="width:100%">
+				          		<div class="carousel-caption __carousel-caption">
+				            		<p>The opening of the main medical laboratory hall for all medical students</p>
+				          		</div>
+				        	</div>
+				      	</div>
+
+				      	<!-- Controls -->
+				      	<!-- <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+				        	<span class="glyphicon glyphicon-chevron-left"></span>
+				      	</a>
+				      	<a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+				        	<span class="glyphicon glyphicon-chevron-right"></span>
+				      	</a> -->
+				    </div>
+
+					<!-- <div class="__mednewssideimg">
+				 		<img src="assets/img/event1.jpg" style="width:100%">
+				 		<p>The opening of the main medical laboratory hall for all medical students</p>
+				 	</div> -->
+				</div>
+				<div class="col-lg-5 col-md-5 col-sm-5">
+					<div class="__mednewst">
+						<p class="__update">News Updates</p>
+						<hr class="__updatehr">
+				 		<div class="row">
+				 			<div class="col-lg-2 col-md-2 col-sm-2 col-xs-4">
+				 				<div class="__mednewsimg">
+				 					<img src="assets/img/cm-logo.png">
+				 				</div>
+				 			</div>
+				 			<div class="col-lg-10 col-md-10 col-sm-10 col-xs-8">
+				 				<div class="__mednewsp">
+				 					<p><a href="">2018 INTERNAL AND EXTERNAL ADVERSTISMENT</a></p>
+					 				<p>July 23, 2018</p>
+					 				<p>Application are invited from suitable qualified candiates for the following</p>
+					 				<hr>
+				 				</div>
+				 			</div>
+				 		</div>
+				 		<div class="row">
+				 			<div class="col-lg-2 col-md-2 col-sm-2 col-xs-4">
+				 				<div class="__mednewsimg">
+				 					<img src="assets/img/cm-logo.png">
+				 				</div>
+				 			</div>
+				 			<div class="col-lg-10 col-md-10 col-sm-10 col-xs-8">
+				 				<div class="__mednewsp">
+				 					<p><a href="">2018 INTERNAL AND EXTERNAL ADVERSTISMENT</a></p>
+					 				<p>July 23, 2018</p>
+					 				<p>Application are invited from suitable qualified candiates for the following</p>
+					 				<hr>
+				 				</div>
+				 			</div>
+				 		</div>
+				 		<div class="row">
+				 			<div class="col-lg-2 col-md-2 col-sm-2 col-xs-4">
+				 				<div class="__mednewsimg">
+				 					<img src="assets/img/cm-logo.png">
+				 				</div>
+				 			</div>
+				 			<div class="col-lg-10 col-md-10 col-sm-10 col-xs-8">
+				 				<div class="__mednewsp">
+				 					<p><a href="">2018 INTERNAL AND EXTERNAL ADVERSTISMENT</a></p>
+					 				<p>July 23, 2018</p>
+					 				<p>Application are invited from suitable qualified candiates for the following</p>
+					 			</div>
+				 			</div>
+				 		</div>
+				 	</div>
+				</div>
+			</div>
+
+			<br>
+
+			<div class="__mednewsdt">
+				<div class="row">
+					<div class="col-lg-6 col-md-6 col-sm-6">
+					 	<div class="__mednewsside">
+					 		<p>View the Latest Events</p>
+					 		<p>Defination. Negotiation is a common way for people to handle conflicts. It can also be used as a formal method of conflict resolution used to resolve inter-group</p>
+					 		<a href="news.html" class="btn">View More</a>
+					 	</div>
+					</div>
+					<div class="col-lg-6 col-md-6 col-sm-6">
+						<div class="slideshow-container">
+
+							<div class="mySlides fadeInRight">
+							  	<div class="numbertext">1 / 3</div>
+								<img src="assets/img/event.jpeg" style="width:100%">
+							  	<div class="text"><a href="news.html">EVENTS</a></div>
+							</div>
+
+							<div class="mySlides fadeInRight">
+							  	<div class="numbertext">2 / 3</div>
+							  	<img src="assets/img/event1.jpg" style="width:100%">
+							  	<div class="text"><a href="news.html">EVENTS</a></div>
+							</div>
+
+							<div class="mySlides fadeInRight">
+							  	<div class="numbertext">3 / 3</div>
+							  	<img src="assets/img/event2.jpg" style="width:100%">
+							  	<div class="text"><a href="news.html">EVENTS</a></div>
+							</div>
+
+						</div>
+						<br>
+
+						<div style="text-align:center">
+						  	<span class="dot"></span> 
+						  	<span class="dot"></span> 
+						  	<span class="dot"></span> 
+						</div>
+						<img src="assets/img/even.svg" class="__eventbgimg">
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="__agcolor">
+			<div class="container">
+				<p class="__doyou">Research</p>
+				<!-- <hr class="__fhr"> -->
+				<div class="__mediresearch">
+					<div class="row">
+						<div class="col-lg-4 col-md-4 col-sm-4">
+							<div class="__researchimg">
+								<img src="assets/img/news.jpeg" class="img-responsive">
+								<p>Computational Biology at the National Center for Biotechnology Information </p>
+								<p>Research in the NCBI Computational Biology Branch focuses a broad range of topics in molecular biomedicine.</p>
+							</div>
+						</div>
+						<div class="col-lg-8 col-md-8 col-sm-8">
+							<div class="__researchimg1">
+								<div class="row">
+									<div class="col-md-5 col-sm-4">
+										<img src="assets/img/ousa.jpg" class="img-responsive">
+									</div>
+									<div class="col-md-7 col-sm-8">
+										<p>Computational Biology at the National Center for Biotechnology Information </p>
+										<p>Research in the NCBI Computational Biology Branch focuses a broad range of topics in molecular biomedicine.</p>
+									</div>
+								</div>
+							</div><br>
+							<div class="__researchimg1">
+								<div class="row">
+									<div class="col-md-5 col-sm-4">
+										<img src="assets/img/serc.jpg" class="img-responsive">
+									</div>
+									<div class="col-md-7 col-sm-8">
+										<p>Computational Biology at the National Center for Biotechnology Information </p>
+										<p>Research in the NCBI Computational Biology Branch focuses a broad range of topics in molecular biomedicine.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="__medimore text-center">
+					<a href="research.html" class="btn">View more</a>
+					<p>Mondays to Fridays: 08:00 a.m. to 10:00 p.m.  Saturdays: 10:00 a.m. to 08:00 p.m.  Sundays; 02:00 p.m. to 06:00 p.m.<br> <span> The Library is closed on public holidays.</span></p>
+				</div>
+			</div>
+		</div>
+
+		<div class="container">
 			<p class="__doyou">OUR ADMINISTRATIVE HEADS</p>
-			<hr class="__fhr"><br><br>
+			<!-- <hr class="__fhr"><br><br> -->
 			<div id="myCarousel" class="carousel fdi-Carousel slide">
 	         	<div class="carousel fdi-Carousel slide" id="eventCarousel" data-interval="0">
 	                <div class="carousel-inner onebyone-carosel">

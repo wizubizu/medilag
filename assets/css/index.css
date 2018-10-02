@@ -582,11 +582,11 @@
 @media screen and (max-width: 1220px){
   
  .__profile-quote {
-    margin-top: 34%;
+    /*margin-top: 34%;*/
   }
 
   .__profile-quote1 {
-    margin-top: 24%;
+    /*margin-top: 24%;*/
   }
 
   .__abcover {
@@ -594,6 +594,18 @@
   }
   .__medlibrarybg {
     padding: 28px;
+  }
+
+  .__profparallax {
+    margin-top: 56%;
+  }
+
+  .__lastparallax {
+    margin-top: 1171px;
+  }
+
+  .__socialp {
+    margin-top: 229px;
   }
 
 }
@@ -606,6 +618,27 @@
 
 @media screen and (max-width: 1024px){
   /*Medilad*/
+
+  .hidden-sm{
+    display: none !important;
+  }
+
+  .__logoimg {
+    margin-left: 24px;
+  }
+
+  .carousel-inner .items img {
+    height: 337px;
+  }
+
+  .__carousel-inner {
+    height: 337px;
+  }
+
+  .__homebg {
+    padding: 22px 0 0;
+  }
+
   .__headtext h1 {
     font-size: 54px;
   }
@@ -616,14 +649,17 @@
 
   .__cardsubpm {
     padding: 15px 25px 20px;
+    height: 190px;
   }
 
   .__cardsubpc {
     padding: 15px 25px 20px;
+    height: 190px;
   }
 
   .__cardsubpd {
     padding: 15px 25px 20px;
+    height: 190px;
   }
 
   .__cardsub img {
@@ -642,7 +678,14 @@
 
   .__profile-quote {
     height: 100%;
-    margin-top: 577px;
+    /*margin-top: 577px;*/
+  }
+  .__profparallax {
+    margin-top: 78%;
+  }
+
+  .__lastparallax {
+    margin-top: 1354px;
   }
 
   .__eventbgimg {
@@ -657,11 +700,11 @@
 
   .__profile-quote1 {
     height: 100%;
-   margin-top: 550px;
+   /*margin-top: 550px;*/
   }
 
   .__socialp {
-   margin-top: 5%;
+   margin-top: 30%;
   }
 
 
@@ -777,14 +820,17 @@
 
   .__cardsubpm {
     padding: 15px 13px 20px;
+    height: 190px;
   }
 
   .__cardsubpc {
     padding: 15px 13px 20px;
+    height: 190px;
   }
 
   .__cardsubpd {
     padding: 15px 13px 20px;
+    height: 190px;
   }
 
   .__cardsubpm p:nth-child(1) {
@@ -814,7 +860,7 @@
 
   .__profile-quote {
     height: 100%;
-    margin-top: 898px;
+    /*margin-top: 898px;*/
   }
 
   .__profile-quote .__portrait {
@@ -827,6 +873,7 @@
   .__logoimg{
     width: 70px;
     margin-top: -22px;
+    margin-left: 0;
   }
 
   /*.__medsubt {
@@ -845,7 +892,7 @@
   }
 
   .__medsec {
-    margin-top: 40%;
+    margin-top: 13%;
   }
 
   .__mednewsimg {
@@ -859,7 +906,7 @@
 
   .__profile-quote1 {
     height: 100%;
-   margin-top: 800px;
+   /*margin-top: 800px;*/
   }
 
   .__mednewsdt {
@@ -879,7 +926,9 @@
   }
 
   .__socialp {
-    margin-top: 20px;
+    margin-top: 10%;
+    padding: 237px 0 8%;
+
   }
 
   .__footcollege p {
@@ -912,6 +961,11 @@
   .__fmspg p:nth-child(2) {
     font-size: 28px;
     letter-spacing: 0.1px;
+  }
+
+  .__homeplay p {
+    font-size: 14px;
+    padding: 9px 0;
   }
 
   .__weplay p {
@@ -1061,8 +1115,8 @@
 
  .__navfa {
     font-size: 15px;
-    padding: 8px 5px !important;
- }
+    padding: 9px 13px !important;
+  }
 
  .__tabsin {
     margin-top: 12px;
@@ -1073,6 +1127,22 @@
   }
 
 
+  .__mednavbar {
+    padding: 12px 0;
+  }
+
+
+  .__homebg {
+    padding: 20px 0 0;
+  }
+
+  .__profparallax {
+    margin-top: 1562px;
+  }
+  .__lastparallax {
+    /* padding-top: 47% !important; */
+    margin-top: 1299px;
+  }
   
 
   /*end*/
@@ -1085,8 +1155,28 @@
 
 @media screen and (max-width: 767px){
 
+  .__mednavbar {
+    padding: 20px 0;
+  }
+  .__homeplay p {
+    margin-top: 6%;
+  }
+
+  .__headtext h1 {
+    padding-top: 13%;
+  }
+
+  .__carousel-767{
+    position: absolute;
+    margin-top: -252px;
+    margin-left: 52%;
+  }
   .__headtext {
     margin-top: 3%;
+  }
+
+  .__cardsub {
+    margin-top: 2%;
   }
 
   .__cardsub img {
@@ -1112,6 +1202,10 @@
     padding-top: 332%;
   }
 
+  .__lastparallax {
+    margin-top: 12px;
+  }
+
   .__cardd {
     margin-top: 0%;
   }
@@ -1134,7 +1228,7 @@
 
   .__profile-quote {
     height: 100%;
-    margin-top: 1450px;
+    /*margin-top: 1450px;*/
   }
 
   /*.__mednewssideimg p {
@@ -1149,7 +1243,7 @@
 
   .__profile-quote1 {
     height: 100%;
-    margin-top: -390px;
+    /*margin-top: -390px;*/
   }
 
   .__profile-quote1 .__portrait1 {
@@ -1322,6 +1416,7 @@
   .__logoimg{
     width: 45px;
     margin-top: -13px;
+    margin-left: 0;
   }
 
  .__carousel-inner .item img {
@@ -1408,7 +1503,7 @@
 
   .__socialp {
     width: 100%;
-    margin-top: 94px;
+    padding-top: 25px;
   }
 
   .__eventbgimg {
@@ -1440,16 +1535,17 @@
 
   .__profile-quote1 {
     height: 100%;
-    margin-top: 1087px;
+    /*margin-top: 1087px;*/
   }
 
   .__profile-quote {
         height: 100%;
-     margin-top: 1590px; 
+     /*margin-top: 1590px; */
   }
 
   .__lastparallax {
     padding-top: 0% !important;
+     margin-top: 1394px;
   }
 
   .__newsf {
@@ -1736,6 +1832,14 @@
   .__tabsin {
     padding: 0px;
     margin-top: 10px;
+  }
+
+  .__homebg {
+    padding: 0;
+  }
+
+  .__mednavbar {
+    padding: 0;
   }
 
 
