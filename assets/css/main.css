@@ -459,18 +459,42 @@ a:focus, a:hover {
   margin-bottom: 0;
 }*/
 
+.__time{
+  padding: 3px 0;
+}
+
+.__times{
+  margin-top: 6px;
+}
+
+.__times p{
+  margin-bottom: 0;
+}
+
+.__times span{
+  color: #969696;
+}
+
+.__email{
+  color: #969696;
+  float: right;
+}
+.__email{
+  margin-top: 6px;
+}
+
 .__mednavbar{
   background: transparent;
   border-bottom: 1px solid #f4f4f4;
   /*padding: 12px 0;*/
-  box-shadow: 0 0px 10px 0px rgba(0, 0, 0, 0.11);
+  box-shadow: 0 4px 10px 0px rgba(0, 0, 0, 0.11);
   margin-bottom: 0;
 }
 
 .__logoimg{
   width: 64px;
-  margin-top: -7px;
-  margin-left: 90px;
+  margin-top: -5px;
+  /*margin-left: 90px;*/
 }
 
 .__headtext{
@@ -753,6 +777,14 @@ a:focus, a:hover {
   box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.08);
 }
 
+.__cardsub .img{
+  background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 31vh;
+    border-radius: 4px;
+}
+
 .__cardsub img{
   width: 100%;
   height: 197px;
@@ -883,9 +915,11 @@ a:focus, a:hover {
   margin-top: 10%;
 }
 
-.__cardd img{
-  width: 263px;
-  height: 187px;
+.__cardd .img{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 31vh;
 }
 
 .__cardd p:nth-child(2){
@@ -1006,7 +1040,7 @@ a:focus, a:hover {
 .__updatehr{
   margin-top: 8px;
   margin-bottom: 8px;
-  border-top: 2px solid #d0021b !important;
+  border-top: 2px solid #16aacd !important;
 }
 
 .__mednewssideimg img{
@@ -1594,7 +1628,22 @@ img {
   color: #979797;
 }*/
 
-.__footcollege a{
+
+
+.__footdown{
+  font-size: 14px !important;
+  font-weight: 900 !important;
+  line-height: 1.39 !important;
+  letter-spacing: 0.8px !important;
+  font-family: AvenirLTStd-Heavy !important;
+  color: #b1b1b1 !important;
+  border: none;
+    padding: 12px 3px;
+    border-left: 2px solid #979797;
+    text-align: center;
+}
+
+.__footdownc{
   font-size: 14px !important;
   font-weight: 900 !important;
   line-height: 1.39 !important;
@@ -1696,7 +1745,7 @@ img {
     margin-top: 50px;
     margin-bottom: 20px;
     border: 0;
-    border-top: 2px solid #d0021b8a;
+    border-top: 2px solid #16aacd;
     margin-left: -206px;
 }
 
@@ -1704,7 +1753,7 @@ img {
     margin-top: 50px;
     margin-bottom: 20px;
     border: 0;
-    border-top: 2px solid #d0021b8a;
+    border-top: 2px solid #16aacd;
     margin-left: -129px;
 }
 
@@ -1712,7 +1761,7 @@ img {
   margin-top: 50px;
     margin-bottom: 20px;
     border: 0;
-    border-top: 2px solid #d0021b8a;
+    border-top: 2px solid #16aacd;
     margin-left: -148px;
 }
 
@@ -1720,7 +1769,7 @@ img {
     margin-top: 50px;
     margin-bottom: 20px;
     border: 0;
-    border-top: 2px solid #d0021b8a;
+    border-top: 2px solid #16aacd;
     margin-left: -86px;
 }
 
@@ -1728,7 +1777,7 @@ img {
     margin-top: 50px;
     margin-bottom: 20px;
     border: 0;
-    border-top: 2px solid #d0021b8a;
+    border-top: 2px solid #16aacd;
     margin-left: -326px;
 }
 
@@ -1736,7 +1785,7 @@ img {
     margin-top: 50px;
     margin-bottom: 20px;
     border: 0;
-    border-top: 2px solid #d0021b8a;
+    border-top: 2px solid #16aacd;
     margin-left: -274px;
 }
 
@@ -1964,10 +2013,11 @@ img {
   box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.08);
 }
 
-.__fcard img{
-  width: 100%;
-    height: 197px;
-    border-radius: 4px;
+.__fcard .img{
+  background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30vh;
 }
 
 .__fcardsub{
@@ -2367,7 +2417,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 
 .__notif {
     width: 678px;
-    background-color: #d0021b;
+    background-color: #16aacd;
     padding: 42px 5px 1px;
 }
 
@@ -2509,7 +2559,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 
 .__newsright hr{
   margin-top: 1px;
-  border-top: 2px solid #d0021b8a;
+  border-top: 2px solid #16aacd;
 }
 
 .__medlibrarybg{
@@ -2655,8 +2705,11 @@ font-size: 28px;
   border:1px solid #dfdfdf;
 }
 
-.__researchimg img{
-  width: 261px;
+.__researchimg .img{
+  background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30vh;
 }
 
 .__researchimg p:nth-child(2){
@@ -2685,9 +2738,11 @@ font-size: 28px;
   border:1px solid #dfdfdf;
 }
 
-.__researchimg1 img{
-      width: 212px;
-    height: 180px;
+.__researchimg1 .img{
+  background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30vh;
 }
 
 .__researchimg1 p:nth-child(1){
@@ -3197,6 +3252,7 @@ ul.b {
   box-shadow: 0 0 1px 0 rgba(188, 188, 188, 0.5);
   cursor: pointer;
   transition: all 0.4s ease-in;
+  height: 338px;
 }
 
 .__gimg:hover{
@@ -3321,8 +3377,12 @@ ul.b {
   background-image: none;
 }
 
-.__item img{
-  height: 304px !important;
+.__item .img{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+  /*height: 304px !important;*/
 }
 
 
@@ -3412,6 +3472,157 @@ ul.b {
 
 .__courselect{
   height: 45px ;
+}
+
+.__coursecard{
+  margin-top: 10%;
+    /* background-color: #f8f8f8; */
+    /*border: solid 1px #e4e4e4;*/
+    border-radius: 4px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    box-shadow: 0 0px 9px 5px rgba(0, 0, 0, 0.03);
+   transition: all 0.4s ease-in;
+}
+
+
+.__coursecard .__img{
+  background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 18vh;
+}
+
+.__coursecard:hover{
+  box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.08);
+}
+
+.__coursecardsub{
+  padding: 15px 13px 0;
+  background: #ffffff;
+}
+
+.__coursecardsubp{
+  font-size: 18px;
+  /*font-weight: 900;*/
+  line-height: 1.44;
+  color: #4a90e2;
+ }
+
+ .__coursecardsubp span{
+  font-size: 14px;
+  font-weight: 900;
+  line-height: 1.44;
+  letter-spacing: 3px;
+  color: #969696;
+ }
+
+
+
+
+.__coursebg{
+  background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    border: 8px solid #fff;
+    box-shadow: 0 0 4px 2px rgba(233, 233, 233, 0.5);
+  border: solid 12px #ffffff;
+}
+
+.__courseyear {
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1.4px;
+    color: #4198ff;
+    padding: 19px;
+    margin-top: 72px;
+    text-align: center;
+    border-top: 1px solid #979797;
+    border-bottom: 1px solid #979797;
+}
+
+.__coursetopic{
+  font-size: 24px;
+  font-weight: 900;
+  letter-spacing: 2px;
+  color: #404040;
+  margin-top: 46%;
+}
+
+.__coursesems{
+  color: #969696;
+  margin-top: 36%;
+  font-size: 19px;
+}
+
+.__coursedetail{
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 1.4px;
+  color: #404040;
+}
+
+.__coursesunder{
+  font-size: 24px;
+  font-weight: 900;
+  letter-spacing: 2px;
+  color: #404040;
+}
+
+.__listofcourses{
+  font-size: 16px;
+  /*font-weight: 900;*/
+  letter-spacing: 1.4px;
+  color: #404040;
+  line-height: 2.2;
+}
+
+.__coursesunder1{
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: #404040;
+}
+
+.__departwelcome{
+  font-size: 32px;
+  font-weight: 900;
+  letter-spacing: 2.7px;
+  color: #404040;
+  line-height: 1.2;
+  margin-top: 20px;
+}
+
+.__deprtmenthead p:nth-child(1){
+  font-size: 18px;
+  font-weight: 900;
+  letter-spacing: 2px;
+  color: #404040;
+  margin-top: 5%;
+}
+.__deprtmenthead p:nth-child(2){
+  font-size: 18px;
+  font-weight: 900;
+  letter-spacing: 2px;
+  color: #404040;
+}
+.__deprtmenthead p:nth-child(3){
+  font-size: 18px;
+  font-weight: 900;
+  letter-spacing: 2px;
+  color: #404040;
+}
+.__coursbtn{
+      background-color: #16aacd;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 1.38;
+    letter-spacing: 3.1px;
+    color: #ffffff !important;
+    padding: 10px 45px;
+    font-family: AvenirLTStd-Heavy;
+    margin-top: 4%;
 }
 
 /*end

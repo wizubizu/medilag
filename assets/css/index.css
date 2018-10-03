@@ -768,6 +768,26 @@
     margin-left: 0px;
   }
 
+  .__email {
+    font-size: 13px;
+  }
+
+  .__item .img {
+    height: 70vh;
+  }
+
+  .__cardd .img {
+    height: 29vh;
+  }
+
+  .__researchimg1 .img {
+    height: 37vh;
+  }
+
+  .__researchimg .img {
+    height: 36vh;
+  }
+
 }
 
 
@@ -1006,7 +1026,7 @@
 
 
   .__alumihrhis {
-    margin-left: -281px;
+    margin-left: -194px;
   }
 
   .__tabimg {
@@ -1143,7 +1163,49 @@
     /* padding-top: 47% !important; */
     margin-top: 1299px;
   }
-  
+
+  .__time {
+    font-size: 12px;
+  }
+
+
+  .__footdown {
+    text-align: left;
+  }
+
+  .__email {
+    font-size: 12px;
+  }
+
+  .__researchimg1 .img {
+     height: 37vh;
+  }
+
+  .__researchimg .img {
+    height: 36vh;
+  }
+
+  .__coursetopic {
+    font-size: 16px;
+    margin-top: 86%;
+  }
+
+  .__coursesems {
+    margin-top: 66%;
+  }
+
+  .__coursebg {
+    margin-top: 24%;
+  }
+
+  .__departwelcome {
+    font-size: 18px;
+    margin-top: 68px;
+  }
+
+  .__gimg {
+    margin-top: 10px;
+  }
 
   /*end*/
 	
@@ -1380,6 +1442,22 @@
     margin-top: 8px;
     margin-bottom: 0;
     margin-left: 0;
+  }
+
+  .__email {
+    margin-top: -20px;
+  }
+
+  .__cardsub .img {
+    height: 74vh;
+  }
+
+  .__cardd .img {
+    height: 60vh;
+  }
+
+  .__cardd .img {
+    height: 60vh;
   }
 
 
@@ -1841,6 +1919,64 @@
   .__mednavbar {
     padding: 0;
   }
+
+  .__carousel-767 {
+    position: unset;
+    margin-top: 0;
+    margin-left: 0;
+  }
+
+  .__homeplay p {
+    margin-top: 0;
+  }
+
+  .__headtext h1 {
+    padding-top: 0%;
+  }
+
+  .__footdown {
+    text-align: left;
+  }
+
+  .__email {
+    margin-top: 0px;
+  }
+
+  .__coursecard .__img {
+    height: 30vh;
+  }
+
+  .__cardsub .img {
+    height: 30vh;
+  }
+
+  .__cardd .img {
+    height: 30vh;
+  }
+
+  .__item .img {
+    height: 31vh;
+  }
+
+  .__courseyear {
+    margin-top: 20px;
+  }
+
+  .__coursetopic {
+    margin-top: 8%;
+    text-align: center;
+  }
+
+  .__coursesems {
+    margin-top: 12%;
+    text-align: center;
+  }
+
+  .__coursearch {
+    width: 100%;
+  }
+
+  
 
 
 }
