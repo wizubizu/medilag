@@ -502,7 +502,8 @@ a:focus, a:hover {
 }
 
 .__headtext h1{
-  font-size: 67px;
+  /*font-size: 67px;*/
+  font-size: 56px;
   font-weight: 800;
   font-family: Montserrat-ExtraBold;
   line-height: 1;
@@ -1778,7 +1779,15 @@ img {
     margin-bottom: 20px;
     border: 0;
     border-top: 2px solid #16aacd;
-    margin-left: -326px;
+    margin-left: -287px;
+}
+
+.__aluminewshis {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 2px solid #16aacd;
+    margin-left: -287px;
 }
 
 .__alumihrapp {
@@ -1786,7 +1795,7 @@ img {
     margin-bottom: 20px;
     border: 0;
     border-top: 2px solid #16aacd;
-    margin-left: -274px;
+    margin-left: -284px;
 }
 
 .__alumip{
@@ -2197,6 +2206,16 @@ img {
     border-bottom: none;
 }
 
+.__dropdown-menu>li>a {
+    display: block;
+    padding: 9px 20px;
+}
+
+.__dropdown-menu li a:hover{
+    color: #16aacd;
+    background:transparent;
+}
+
 
 /*hover on dropdown and drop*/
 ul.nav li.dropdown:hover > ul.dropdown-menu {
@@ -2221,8 +2240,12 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
   font-family: AvenirLTStd-Medium;
 }
 
+.__nav-pills li a:hover{
+  color: #16aacd !important;
+}
+
 .__nav-pills>li.active>a, .__nav-pills>li.active>a:focus, .__nav-pills>li.active>a:hover {
-    color: #4a90e2;
+    color: #16aacd !important;
     background-color: #ffffff;
 }
 
@@ -2279,7 +2302,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
     line-height: 1.42857143;
     color: #fff;
     white-space: nowrap;
-    background: #16aacd;
+    background: #16aacd !important;
 }
 
 .__tabimg{
@@ -3632,7 +3655,7 @@ ul.b {
 }
 
 .dropdown-submenu>.dropdown-menu {
-    width: 255px;
+    width: 290px;
     top: 0;
     left: 100%;
     margin-top: -2px;
@@ -3684,6 +3707,10 @@ ul.b {
   background: #16aacd;
   color: #ffffff;
 }
+
+.__hide{
+    display: none !important;
+  }
 
 
 

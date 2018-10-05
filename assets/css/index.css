@@ -557,7 +557,14 @@
 
 @media screen and (min-width: 1440px){
    
+  
+  .__hide1{
+    display: none !important;
+  }
 
+  .__hide {
+    display: block !important;
+  }
 
 
 }
@@ -567,9 +574,56 @@
 ==================================================================*/
 
 
-@media screen and (max-width: 1199px){
+@media screen and (max-width: 1330px){
+
+  
    
   
+
+  .__hide1{
+    display: none !important;
+  }
+
+  .__hide {
+    display: block !important;
+  }
+
+  .__alumihrhis {
+    margin-left: -285px !important;
+  }
+
+  .__aluminewshis {
+    margin-left: -321px !important;
+  }
+
+}
+
+/*=================================================================
+  @media screen 1199px
+==================================================================*/
+
+
+@media screen and (max-width: 1199px){
+
+  .container {
+    width: 100%;
+  }
+   
+  .__alumihrhis {
+    margin-left: -260px;
+  }
+
+  .__aluminewshis {
+    margin-left: -260px;
+  }
+
+  .__hide1{
+    display: none !important;
+  }
+
+  .__hide {
+    display: block !important;
+  }
 
 }
 
@@ -608,6 +662,22 @@
     margin-top: 229px;
   }
 
+  .__hide1{
+    display: none !important;
+  }
+
+  .__hide {
+    display: block !important;
+  }
+
+  .__alumihrhis {
+    margin-left: -288px !important;
+  }
+
+  .__aluminewshis {
+    margin-left: -321px !important;
+  }
+
 }
 
 
@@ -619,9 +689,12 @@
 @media screen and (max-width: 1024px){
   /*Medilad*/
 
-  .hidden-sm{
-    display: none !important;
+  .__navfa {
+    font-size: 14px;
+    padding: 32px 15px !important;
   }
+
+ 
 
   .__logoimg {
     margin-left: 24px;
@@ -640,7 +713,8 @@
   }
 
   .__headtext h1 {
-    font-size: 54px;
+    /*font-size: 54px;*/
+    font-size: 44px;
   }
 
   .__headtext p {
@@ -724,7 +798,11 @@
   }
 
   .__alumihrhis {
-     margin-left: -277px;
+     margin-left: -282px;
+  }
+
+  .__aluminewshis {
+     margin-left: -282px;
   }
 
   .__tabimg {
@@ -788,6 +866,14 @@
     height: 36vh;
   }
 
+  .__hide1{
+    display: none !important;
+  }
+
+  .__hide {
+    display: block !important;
+  }
+
 }
 
 
@@ -800,6 +886,22 @@
   /*Medilad*/
   .__medlibrarybg {
     padding: 20px;
+  }
+
+  .container {
+    width: 100%;
+  }
+  .__navf {
+    font-size: 14px;
+    padding: 30px 13px !important;
+  }
+
+  .__alumihrhis {
+    margin-left: -242px !important;
+  }
+
+  .__aluminewshis {
+    margin-left: -275px !important;
   }
   /*end*/
 
@@ -818,7 +920,8 @@
   /*Medilad*/
 
   .__headtext h1 {
-    font-size: 50px;
+    /*font-size: 50px;*/
+    font-size: 29px;
   }
 
   .__headtext p {
@@ -1026,7 +1129,11 @@
 
 
   .__alumihrhis {
-    margin-left: -194px;
+    margin-left: -200px;
+  }
+
+  .__aluminewshis {
+    margin-left: -202px !important;
   }
 
   .__tabimg {
@@ -1135,7 +1242,7 @@
 
  .__navfa {
     font-size: 15px;
-    padding: 9px 13px !important;
+    padding: 6px 13px !important;
   }
 
  .__tabsin {
@@ -1206,6 +1313,35 @@
   .__gimg {
     margin-top: 10px;
   }
+
+  .container {
+    width: 100%;
+  }
+
+  .__dropdownsup {
+    position: unset;
+  }
+
+  .__hide1{
+    display: none !important;
+  }
+
+  .__hide {
+    display: block !important;
+  }
+
+  .dropdown-menu>li>a {
+    padding: 7px 20px;
+  }
+
+  .__alumihrg {
+    margin-left: -119px;
+  }
+
+  .__alumihrhis {
+    margin-left: -289px !important;
+  }
+  
 
   /*end*/
 	
@@ -1324,6 +1460,11 @@
   }
 
   .__alumihrhis {
+    margin-top: 6px;
+    margin-left: 0;
+  }
+
+  .__aluminewshis {
     margin-top: 6px;
     margin-left: 0;
   }
@@ -1460,6 +1601,27 @@
     height: 60vh;
   }
 
+  .__coursebg {
+    margin-top: 0;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+
+  .dropdown-menu {
+    position: unset;
+  }
+
+  .__aluminewshis {
+    margin-left: 0 !important;
+  }
+
+  .__alumihrhis {
+    margin-left: 0 !important;
+  }
+  
 
   
   /*end*/
@@ -1895,6 +2057,10 @@
   .__alumihrhis {
    margin-bottom: 0;
   }
+
+  .__aluminewshis {
+   margin-bottom: 0;
+  }
   
 
   .__notif {
@@ -1977,9 +2143,81 @@
   }
 
   .__drli{
+    color: #777 !important;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  .dropdown-menu {
+    position: unset;
+  }
+
+  .__dropdownsup {
+    position: unset;
+  }
+
+  .__hide1{
+    display: none !important;
+  }
+
+  .__hide {
+    display: block !important;
+  }
+
+  .__dropdown-menuhome>li>a:hover{
     color: #ffffff !important;
   }
 
+
+  /*.dropdown-menu .dropdown-menu {
+  position: static !important;
+  float: none;
+  padding: 5px 0;
+  margin: 2px 0 0;
+  list-style: none;
+  font-size: 14px;
+  background-color: #fff;
+  border: none;
+  border: none;
+  border-radius: 0;
+  -webkit-box-shadow: none;
+  box-shadow:none;
+  background-clip: padding-box;
+}
+
+.dropdown-menu .dropdown-submenu{
+  position: static !important;
+  float: none;
+  padding: 5px 0;
+  margin: 2px 0 0;
+  list-style: none;
+  font-size: 14px;
+  background-color: #fff;
+  border: none;
+  border: none;
+  border-radius: 0;
+  -webkit-box-shadow: none;
+  box-shadow:none;
+  background-clip: padding-box;
+}
+
+.dropdown-submenu .__dropdownsup {
+  position: static !important;
+  float: none;
+  padding: 5px 0;
+  margin: 2px 0 0;
+  list-style: none;
+  font-size: 14px;
+  background-color: #fff;
+  border: none;
+  border: none;
+  border-radius: 0;
+  -webkit-box-shadow: none;
+  box-shadow:none;
+  background-clip: padding-box;
+}*/
   
 
 
