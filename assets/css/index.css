@@ -854,6 +854,10 @@
     height: 70vh;
   }
 
+   .__mobilecarouselsticky .img {
+    height: 70vh;
+  }
+
   .__cardd .img {
     height: 29vh;
   }
@@ -2121,6 +2125,10 @@
   }
 
   .__item .img {
+    height: 31vh;
+  }
+
+  .__mobilecarouselsticky .img {
     height: 31vh;
   }
 

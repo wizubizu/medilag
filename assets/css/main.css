@@ -3408,6 +3408,33 @@ ul.b {
   /*height: 304px !important;*/
 }
 
+/*mobile sticky carousel*/
+
+.__mobilecarouselsticky .img{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+  /*height: 304px !important;*/
+}
+.__mobilecarouselsticky .__mobilecarouselstickyp{
+      background-color: rgba(0,0,0,.5);
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
+    padding: 13px 13px 3px;
+    color: #fff;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 1.35;
+    letter-spacing: 1.2px;
+    color: #ffffff;
+    font-family: AvenirLTStd-Heavy;
+}
+
 
 /* ------------------- Section Styling - Not needed for carousel styling ------------------- */
 
