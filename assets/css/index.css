@@ -595,6 +595,13 @@
   .__aluminewshis {
     margin-left: -321px !important;
   }
+  .__hide1s{
+    display: block !important;
+  }
+
+  .__hides {
+    display: none !important;
+  }
 
 }
 
@@ -690,6 +697,11 @@
   /*Medilad*/
 
   .__navfa {
+    font-size: 14px;
+    padding: 32px 15px !important;
+  }
+
+  .__navf {
     font-size: 14px;
     padding: 32px 15px !important;
   }
@@ -876,6 +888,14 @@
 
   .__hide {
     display: block !important;
+  }
+
+  .__hide1s{
+    display: block !important;
+  }
+
+  .__hides {
+    display: none !important;
   }
 
 }
@@ -1345,6 +1365,14 @@
   .__alumihrhis {
     margin-left: -289px !important;
   }
+
+  .__hide1s{
+    display: block !important;
+  }
+
+  .__hides {
+    display: none !important;
+  }
   
 
   /*end*/
@@ -1812,11 +1840,13 @@
   }
 
   .__profile-quote .__portrait {
-    margin-top: -687px;
+    /*margin-top: -687px;*/
+    top: -173px;
   }
 
   .__profile-quote1 .__portrait1 {
-    margin-top: -279px;
+    /*margin-top: -279px;*/
+    top: -54px;
   }
 
   .__parabw {
@@ -2176,6 +2206,14 @@
 
   .__dropdown-menuhome>li>a:hover{
     color: #ffffff !important;
+  }
+
+  .__hide1s{
+    display: none !important;
+  }
+
+  .__hides {
+    display: block !important;
   }
 
 
