@@ -581,11 +581,11 @@
   
 
   .__hide1{
-    display: none !important;
+    display: block !important;
   }
 
   .__hide {
-    display: block !important;
+    display: none !important;
   }
 
   .__alumihrhis {
