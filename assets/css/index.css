@@ -1426,10 +1426,14 @@
     height: 100%;
   }
 
+  .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #16aacd;
+  }
+
   .navbar-toggle {
     /* border: 2px solid #FFFFFF; */
     color: #ffffff;
-    background: #f0842d;
+    background: #16aacd;
   }
   
   .parallax {
