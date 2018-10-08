@@ -2144,6 +2144,7 @@
 
   .__email {
     margin-top: 0px;
+    float: left;
   }
 
   .__coursecard .__img {
@@ -2219,6 +2220,8 @@
   .__hides {
     display: block !important;
   }
+
+
 
 
   /*.dropdown-menu .dropdown-menu {
