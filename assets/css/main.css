@@ -557,6 +557,14 @@ a:focus, a:hover {
     border-top: 5px solid #d0021b;
 }
 
+.__hides{
+    display: none !important;
+  }
+
+  .__hide1s {
+    display: block !important;
+  }
+
 
   /*carousel*/
 .carousel-inner .item{

@@ -558,13 +558,15 @@
 @media screen and (min-width: 1440px){
    
   
-  .__hide1{
+  .__hides{
     display: none !important;
   }
 
-  .__hide {
+  .__hide1s {
     display: block !important;
   }
+
+  
 
 
 }
